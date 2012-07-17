@@ -53,7 +53,7 @@ do
 			fi
 			echo "level is $level"
 			;;
-	        :)	if [ $OPTARG == "R" ]; then
+	    :)	if [ $OPTARG == "R" ]; then
 				level=1
 				echo "level is $level"
 			fi
